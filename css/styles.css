@@ -303,4 +303,22 @@ main {
     .info-section .flotante .tri {
         position: absolute;
     }
+
+    .user .share .btn-share{
+        position: absolute;
+    }
+}
+
+@media (max-width: 580px){
+    .section .imagen {
+        height: 45%;
+    }
+
+    .section .info-section {
+        height: 55%;
+    }
+
+    .info-section .user {
+        grid-template-columns: 60px 300px 50px;
+    }
 }
