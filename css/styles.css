@@ -322,3 +322,9 @@ main {
         grid-template-columns: 60px 300px 50px;
     }
 }
+
+@media (max-width: 535px){
+    .info-section .user {
+        grid-template-columns: 60px 270px 50px;
+    }
+}
