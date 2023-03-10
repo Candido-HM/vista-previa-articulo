@@ -328,3 +328,40 @@ main {
         grid-template-columns: 60px 270px 50px;
     }
 }
+
+@media (max-width: 500px){
+    main {
+        height: auto;
+    }
+
+    main .section {
+        height: 580px !important;
+        margin-bottom: 30px;
+    }
+
+    .info-section .flotante {
+        width: 43%;
+    }
+
+    .info-section h1 {
+        height: auto;
+        margin-top: 0px;
+        padding: 10px;
+        margin-bottom: 0px;
+        font-size: 18px;
+    }
+
+    .info-section .flotante .principal { 
+        width: 200px;
+        height: 55px;
+    }
+
+    .info-section .flotante .principal p {
+        width: 50px;
+        height: auto;
+    }
+
+    .info-section .user {
+        grid-template-columns: 60px 230px 50px;
+    }
+}
