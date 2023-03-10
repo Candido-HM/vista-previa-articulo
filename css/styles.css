@@ -192,3 +192,19 @@ main {
     border-left: 15px solid transparent;
     border-bottom: 15px solid transparent;
 }
+
+/* RESPONSIVO */
+@media (max-width: 850px){
+    .section .info-section {
+        padding: 20px;
+    }
+
+    .info-section .flotante .principal {
+        width: 180px;
+    }
+
+    .flotante .principal p {
+        padding-left: 15px;
+        letter-spacing: 3px;
+    }
+}
