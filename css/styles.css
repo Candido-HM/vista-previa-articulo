@@ -397,3 +397,17 @@ main {
         height: 45px;
     }
 }
+
+@media (max-width: 385px){
+    .info-section .flotante {
+        width: 55%;
+    }
+
+    .info-section .flotante .principal {
+        height: 40px;
+    }
+
+    .info-section .user {
+        grid-template-columns: 60px 160px 50px;
+    }
+}
