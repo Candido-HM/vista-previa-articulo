@@ -2,7 +2,7 @@
 
 window.addEventListener('load', () => {
     var boton = document.querySelector('#btn-share');   
-    //flotante.style.visibility ="hidden";
+    flotante.style.visibility ="hidden";
 
     boton.addEventListener('click', () => {
         var flotante = document.querySelector('#flotante');
