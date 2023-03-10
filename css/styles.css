@@ -286,13 +286,19 @@ main {
 
     .info-section .flotante .principal {
         width: 100%;
-        justify-self: center;
+        align-content: center;
     }
-
+ 
     .info-section .flotante .principal p{
         letter-spacing: 5px;
+        text-align: center;
+        width: 100px;
+        height: 100%;
     }
 
+    .info-section .flotante .principal a{
+        padding-left: 20px;
+    }
 
     .info-section .flotante .tri {
         position: absolute;
