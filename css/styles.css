@@ -399,6 +399,10 @@ main {
 }
 
 @media (max-width: 385px){
+    main {
+        height: 100%;
+    }
+
     .info-section .flotante {
         width: 55%;
     }
