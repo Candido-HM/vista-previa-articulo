@@ -419,3 +419,13 @@ main {
         grid-template-columns: 60px 160px 50px;
     }
 }
+
+@media (max-width: 365px){
+    .info-section .user {
+        grid-template-columns: 60px 145px 50px;
+    }
+
+    .info-section .flotante .principal p {
+        letter-spacing: 3px;
+    }
+}
