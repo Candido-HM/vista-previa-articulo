@@ -225,6 +225,7 @@ main {
 
 @media (max-width: 690px){
     .info-section .flotante {
+        width: 200px;
         margin-left: 170px;
     }
 }
