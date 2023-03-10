@@ -429,3 +429,25 @@ main {
         letter-spacing: 3px;
     }
 }
+
+@media (max-width: 335px){
+    .info-section .flotante .principal {
+        width: 180px;
+    }
+
+    .info-section .flotante .principal p {
+        width: 30px;
+    }
+
+    .user .info-user h2 {
+        padding-left: 10px;
+    }
+
+    .user .info-user p {
+        padding-left: 10px;
+    }
+
+    .info-section .user {
+        grid-template-columns: 60px 130px 50px;
+    }
+}
