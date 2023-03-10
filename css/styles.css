@@ -365,3 +365,9 @@ main {
         grid-template-columns: 60px 230px 50px;
     }
 }
+
+@media (max-width: 445px){
+    .info-section .user {
+        grid-template-columns: 60px 200px 50px;
+    }
+}
