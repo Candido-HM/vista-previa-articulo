@@ -208,3 +208,17 @@ main {
         letter-spacing: 3px;
     }
 }
+
+@media (max-width: 800px){
+    .section {
+        width: 600px !important;
+    }
+
+    .info-section .user {
+        grid-template-columns: 60px 200px 50px;
+    }
+
+    .info-section .flotante {
+        margin-left: 185px;
+    }
+}
